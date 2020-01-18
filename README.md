@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React Bootstrap with Material Design
 MDBootstrap for React
 
@@ -20,3 +21,7 @@ We're also open to pull requests
 
 ## Something Missing?
 If you still have some questions do not hesitate to ask us. Open an issue or [visit our Slack](https://mdbbetatest.slack.com)
+=======
+# ProyectoUni
+Proyecto de evaluación 8vo cuatrimestre 
+>>>>>>> 0d355d64a4356cacfb7276029e2a41c42218cd31
