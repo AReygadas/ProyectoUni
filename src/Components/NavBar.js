@@ -1,7 +1,9 @@
 import React from 'react';
 import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, 
-    MDBNavItem, MDBNavLink} from 'mdbreact';
-import { BrowserRouter as Router } from 'react-router-dom';
+         MDBNavItem, MDBNavLink} from 'mdbreact';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
+
+import Logo from '../images/Logo.png'
 
 class FullPageIntroWithFixedTransparentNavbar extends React.Component {
   constructor(props) {
@@ -23,32 +25,23 @@ class FullPageIntroWithFixedTransparentNavbar extends React.Component {
     return (
       <div>
         <header>
-          <Router>
             <MDBNavbar color="bg-primary" fixed="top" dark expand="md" scrolling transparent>
               <MDBNavbarBrand href="/">
-                <strong>Navbar</strong>
+                <img src={Logo} style={{width: '100px', height: '30px' }} />
               </MDBNavbarBrand>
-              {!this.state.isWideEnough && <MDBNavbarToggler onClick={this.onClick} />}
+                {!this.state.isWideEnough && <MDBNavbarToggler onClick={this.onClick} />}
               <MDBCollapse isOpen={this.state.collapse} navbar>
                 <MDBNavbarNav left>
-                  <MDBNavItem active>
-                    <MDBNavLink to="#">Home</MDBNavLink>
+                  <MDBNavItem>
+                    <MDBNavLink to="/About"><button class="btn peach-gradient">Acerca de</button></MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink to="#">Link</MDBNavLink>
-                  </MDBNavItem>
-                  <MDBNavItem>
-                    <MDBNavLink to="#">Profile</MDBNavLink>
+                  <MDBNavLink to="/logIn"><button class="btn aqua-gradient">Inicio de secion</button></MDBNavLink>
                   </MDBNavItem>
                 </MDBNavbarNav>
               </MDBCollapse>
             </MDBNavbar>
-          </Router>
-
-         
-        </header>
-
-      
+          </header>
       </div>
     );
   }

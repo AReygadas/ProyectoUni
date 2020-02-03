@@ -1,7 +1,9 @@
 import React from 'react'
-import { Usuario, Contraseña } from './SingUpStyle'
-import { Contenedor, Fondo, Enlace, Texto } from './styles'
+import {Link} from 'react-router-dom'
+import { Usuario, Contraseña, TextoAz } from '../Styles/SingUpStyle'
+import { Contenedor, Fondo, Texto } from '../Styles/styles'
 import { MDBRow, MDBCol, MDBBtn } from 'mdbreact'
+
 
 class SingUp extends React.Component{
 
@@ -12,6 +14,7 @@ class SingUp extends React.Component{
                     <MDBRow center> 
                         <MDBCol md="4"> 
                             <Contenedor>
+                              <Link to='/'><TextoAz>Regresar</TextoAz></Link>
                                 <MDBRow center>
                                     <Texto>SingUp</Texto>
                                 </MDBRow>

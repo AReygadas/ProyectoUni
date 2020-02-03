@@ -1,18 +1,15 @@
 import React from 'react'
-import SinUp from '../Components/SingUp'
-import Log from '../Components/LogIn'
-import { MDBRow } from 'mdbreact'
-import {Fondo} from '../Components/styles'
+import {Fondo} from '../Styles/styles'
+import InicioSesion from '../Components/LogIn'
+
 class Home extends React.Component{
 
     render(){
         return(
             <React.Fragment>
                 <Fondo>
-                  
-                        <Log />
-                     
-                </Fondo>
+                      <InicioSesion />  
+                </Fondo>                  
             </React.Fragment>
         )
     }
