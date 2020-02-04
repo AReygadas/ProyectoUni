@@ -1,6 +1,5 @@
 import React from 'react'
 import Grupo from '../Components/Grupo';
-import { MDBContainer, MDBRow } from 'mdbreact';
 
 class Grupos extends React.Component{
     state = {

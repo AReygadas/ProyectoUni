@@ -34,7 +34,7 @@ export const Texto = styled.div`
 export const Fondo = styled.div `
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: auto;
     background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2017/04/24/1087069/428f2be34beaf9519e507cc95cbbf9f6-700.jpg");
     background-repeat: no-repeat;
     background-position: center center;

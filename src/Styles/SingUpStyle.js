@@ -32,7 +32,7 @@ export const TextoAz = styled.h1 `
   font-size: 16px;
   text-align: right;
 `
-export const Contraseña = styled.input`
+export const Contrase = styled.input`
   padding: 25px;
   font-family: inherit;
   width: 100%;

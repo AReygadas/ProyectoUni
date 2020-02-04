@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import { Usuario, Contraseña, TextoAz } from '../Styles/SingUpStyle'
+import { Usuario, Contrase, TextoAz } from '../Styles/SingUpStyle'
 import { Contenedor, Fondo, Texto } from '../Styles/styles'
 import { MDBRow, MDBCol, MDBBtn } from 'mdbreact'
 
@@ -20,8 +20,8 @@ class SingUp extends React.Component{
                                 </MDBRow>
                                 <Usuario type='tetx' placeholder='Npmbre'/>
                                 <Usuario type='tetx' placeholder='Usuario'/>
-                                <Contraseña type='password' placeholder='Contraseña'/>
-                                <Contraseña type='password' placeholder='Confirma Contraseña'/>
+                                <Contrase type='password' placeholder='Contraseña'/>
+                                <Contrase type='password' placeholder='Confirma Contraseña'/>
                                 <MDBRow center>
                                     <MDBBtn gradient="purple">Enviar</MDBBtn>
                                 </MDBRow>
