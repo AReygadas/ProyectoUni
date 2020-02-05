@@ -12,16 +12,10 @@ function init() {
   root.renderer.setPixelRatio(window.devicePixelRatio || 1);
   root.camera.position.set(0, 0, 60);
 
-  var width = 100;
+  var width = 180;
   var height = 60;
 
-  var slide = new Slide(width, height, 'out');
-	var l1 = new THREE.ImageLoader();
-	l1.setCrossOrigin('Anonymous');
-	l1.load('https://www.wallpaperup.com/uploads/wallpapers/2017/04/24/1087069/428f2be34beaf9519e507cc95cbbf9f6-700.jpg', function(img) {
-	  slide.setImage(img);
-	})
-  root.scene.add(slide);
+
 
   var slide2 = new Slide(width, height, 'in');
   var l2 = new THREE.ImageLoader();
@@ -32,11 +26,20 @@ function init() {
 	
   root.scene.add(slide2);
 
-  var tl = new TimelineMax({repeat:-1, repeatDelay:1.0, yoyo: true});
+  var slide3 = new Slide(width, height,'in');
+  var l3 = new THREE.ImageLoader();
+	l3.setCrossOrigin('Anonymous');
+	l3.load('https://image.made-in-china.com/202f0j10kOzTPCmBGNbw/Sea-and-Beach-Scenery-3D-Sky-Wallpaper-Murals.jpg', function(img) {
+		slide3.setImage(img);
+	})
+	
+  root.scene.add(slide3);
+
+  var tl = new TimelineMax({repeat:-1, repeatDelay:10.0, yoyo: true});
 
   tl.add(slide.transition(), 0);
   tl.add(slide2.transition(), 0);
-
+  tl.add(slide3.transition(), 0);
   createTweenScrubber(tl);
 
   window.addEventListener('keyup', function(e) {

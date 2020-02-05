@@ -16,7 +16,7 @@ class LogIn extends React.Component{
                             <Contenedor>
                                 <Texto>LogIn
                                     <MDBInput label="Usuario" icon="user" />
-                                    <MDBInput label="Contraseña" icon="lock" />
+                                    <MDBInput type='password' label="Contraseña" icon="lock" />
                                 </Texto>
                                 <MDBRow center>
                                     <MDBBtn gradient="blue">Entrar</MDBBtn>

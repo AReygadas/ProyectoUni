@@ -1,7 +1,7 @@
 import Styled from 'styled-components'
 
 export const Box = Styled.div `
-    margin-top: 200px;
+    margin-top: 100px;
     margin-left: 50px;
     width: 240px;
     height: 370px;

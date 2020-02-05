@@ -36,6 +36,8 @@ class Acerca extends React.Component{
                             <Parrafo>Programador backend encargado de la funcionalidad de la aplicacion</Parrafo> 
                         </Box>
                    </div>
+                   </MDBRow>
+                   <MDBRow center>
                    <div>
                         <Box>
                             <Degradado />

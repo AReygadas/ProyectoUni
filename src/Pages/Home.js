@@ -2,7 +2,7 @@ import React from 'react'
 import {Fondo} from '../Styles/styles'
 import InicioSesion from '../Components/LogIn'
 import { MDBRow, MDBContainer } from 'mdbreact'
-
+import Acercade from './AbautUs'
 
 class Home extends React.Component{
 
@@ -17,6 +17,9 @@ class Home extends React.Component{
                       </div></MDBRow>
                      <MDBRow center>
                       <InicioSesion />
+                  </MDBRow>
+                  <MDBRow center>
+                      <Acercade />
                   </MDBRow>
                   </MDBContainer>
                 </Fondo>     
