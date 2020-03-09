@@ -1,6 +1,6 @@
 import React from 'react'
 import { MDBContainer, MDBRow, MDBCol, MDBInput, MDBBtn } from "mdbreact"
-import { Contenedor, Enlace, Texto} from '../Styles/styles'
+import { Contenedor, Enlace, Texto, Fondo} from '../Styles/styles'
 
 import {Link} from 'react-router-dom';
 
@@ -10,7 +10,8 @@ class LogIn extends React.Component{
     render(){
         return(
             <React.Fragment>
-                <MDBContainer>
+                <Fondo>
+                 <MDBContainer>
                     <MDBRow center> 
                         <MDBCol md="6"> 
                             <Contenedor>
@@ -30,6 +31,7 @@ class LogIn extends React.Component{
                         </MDBCol>
                     </MDBRow> 
                 </MDBContainer>
+                </Fondo>
             </React.Fragment>
         )
     }

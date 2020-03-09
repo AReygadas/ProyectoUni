@@ -1,7 +1,6 @@
 import React from 'react';
 import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, 
          MDBNavItem, MDBNavLink} from 'mdbreact';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
 
 import Logo from '../images/Logo.png'
 

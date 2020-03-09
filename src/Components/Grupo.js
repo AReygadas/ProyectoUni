@@ -1,17 +1,13 @@
 import React from 'react'
-import { Box } from '../Styles/GrupoStyle'
+import {MDBBtn} from 'mdbreact'
 
-class grupo extends React.Component {
+export default class Grupo extends React.Component {
 
     render(){
         return(
             <React.Fragment>
-                <Box>
-
-                    
-                </Box>
+                <MDBBtn outline color="success">TICASI 8A</MDBBtn>
             </React.Fragment>
         )
     }
 }
-export default grupo

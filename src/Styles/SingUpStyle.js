@@ -15,7 +15,6 @@ export const Usuario = styled.input`
   color: white;
   background: transparent;
   
-
   &:focus{
   
     transition: 0.2s;
@@ -25,7 +24,6 @@ export const Usuario = styled.input`
     border-image: linear-gradient(to right, red, purple);
     border-image-slice: 1;
   }
-
 `
 export const TextoAz = styled.h1 `
   color: blue;
@@ -46,7 +44,6 @@ export const Contrase = styled.input`
       color: white;
       opacity: 0.8;
   }
-
   &:focus{
     transition: 0.2s;
     padding-bottom: 6px;  
@@ -55,5 +52,4 @@ export const Contrase = styled.input`
     border-image: linear-gradient(to right, #09EAD9 , purple);
     border-image-slice: 1;
   }
-
 `
