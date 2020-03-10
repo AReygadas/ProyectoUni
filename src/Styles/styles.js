@@ -23,7 +23,7 @@ export const Texto = styled.div`
     text-transform: none;
 `
 export const Contenedor = styled.div`
-    padding: 15px;
+    
     border-radius: 15px;
     background-color: rgba(0, 0, 0, 0.5);
     background: rgba(0, 0, 0, 0.5);
@@ -31,12 +31,12 @@ export const Contenedor = styled.div`
     -webkit-box-shadow:10px 10px 5px #000000;
     box-shadow:10px 10px 5px #000000;
 `
-
-
 export const Fondo = styled.div `
-    position:absolute;
+   padding-top: 9%;
+    padding-bottom: 50px;
+    position: static;
     width: 100%;
-    height: 100%;
+    height: auto;
     background-image: url("https://www.creativosonline.org/blog/wp-content/uploads/2014/07/Nature-Full-HD-Wallpaper-national-geographic-7822288-1920-1080.jpg");
     background-repeat: no-repeat;
     background-position: center center;
@@ -46,15 +46,17 @@ export const Fondo = styled.div `
     -webkit-background-size: 100% 100%, auto;
     background-size: 100% 100%, auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    z-index:-99999;
+   
 `
 export const Fondo1 = styled.div `
-    padding-top: 7%;
-    position:absolute;
+   
+    padding-top: 9%;
+    padding-bottom: 50px;
+    position: static;
     width: 100%;
-    height: 100%;
-    background-image: url("https://image.freepik.com/foto-gratis/tiza-abstracta-borrado-pizarra-fondo_24076-93.jpg");
+    height: auto;
+    background-image: url("https://images6.alphacoders.com/452/452317.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -63,13 +65,14 @@ export const Fondo1 = styled.div `
     -webkit-background-size: 100% 100%, auto;
     background-size: 100% 100%, auto;
     display: flex;
+    z-index:-99999;
  
 `
 export const Fondo2 = styled.div `
     padding-top: 12%;
-    position:absolute;
+    position:static;
     width: 100%;
-    height: 100%;
+    height: auto;
     background-image: url("https://image.shutterstock.com/image-photo/blue-chalkboard-abstract-background-260nw-1061899094.jpg");
     background-repeat: no-repeat;
     background-position: center center;
@@ -81,21 +84,16 @@ export const Fondo2 = styled.div `
     display: flex;
     
 `
-export const HomeStyle = styled.div`
-    padding-top: 15%;
-`
 export const Pie = styled.div`
-
    width: 100%;
-   position:fixed; 
-   bottom:0;
    z-index:999999; 
    background-color: rgba(0, 0, 0, 0.7);
     background: rgba(0, 0, 0, 0.7);
     -moz-box-shadow:10px 10px 5px #000000;
     -webkit-box-shadow:10px 10px 5px #000000;
     box-shadow:10px 10px 5px #000000;
-
+    position: static;
+	bottom: 0;
 `
 export const Foto = styled.img `
     width: 110px;
@@ -104,7 +102,7 @@ export const Foto = styled.img `
    
    `
    export const Foto2 = styled.img `
-   width: 55px;
+   width: 30px;
    height: auto;
    overflow: hidden;
   

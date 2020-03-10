@@ -43,7 +43,7 @@ export default class Home extends React.Component{
                         
                     </MDBRow>
                 </MDBContainer>
-                </Fondo>
+               </Fondo>
             </React.Fragment>
         )
     }
