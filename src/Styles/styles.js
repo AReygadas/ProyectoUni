@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import F1 from '../images/F1.jpeg'
 
 export const Enlace = styled.h1`
     font-family: verdana;
@@ -10,6 +11,10 @@ export const Enlace = styled.h1`
 export const Lista = styled.li`
      color: #FFFFFF;
 `
+export const FondoTabla = styled.div`
+    background-color: white;
+`
+
 export const Texto = styled.div`
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
@@ -31,13 +36,13 @@ export const Contenedor = styled.div`
     -webkit-box-shadow:10px 10px 5px #000000;
     box-shadow:10px 10px 5px #000000;
 `
-export const Fondo = styled.div `
-   padding-top: 9%;
+export const FondoH = styled.div `
+    padding-top: 9%;
     padding-bottom: 50px;
     position: static;
     width: 100%;
     height: auto;
-    background-image: url("https://www.creativosonline.org/blog/wp-content/uploads/2014/07/Nature-Full-HD-Wallpaper-national-geographic-7822288-1920-1080.jpg");
+    background-image: url(${F1});
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -49,6 +54,23 @@ export const Fondo = styled.div `
     z-index:-99999;
    
 `
+export const Fondo404 = styled.div `
+   padding-top: 9%;
+    padding-bottom: 50px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://images.alphacoders.com/476/thumb-1920-476980.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -o-background-size: 100% 100%, auto;
+    -moz-background-size: 100% 100%, auto;
+    -webkit-background-size: 100% 100%, auto;
+    background-size: 100% 100%, auto;
+    display: flex;
+    z-index:-99999;
+` 
 export const Fondo1 = styled.div `
    
     padding-top: 9%;
@@ -56,7 +78,7 @@ export const Fondo1 = styled.div `
     position: static;
     width: 100%;
     height: auto;
-    background-image: url("https://images6.alphacoders.com/452/452317.jpg");
+    background-image: url("https://lh3.googleusercontent.com/proxy/h-IkJd0eAExA7vStAYYqaPg1_QMDLUyKuKrXh19LA_0IH7muuEx8TEQKA59vMsi6yBRR7YB7LjOYyj762775LwE6ZYwTNjkJrSCgv4p2L_2r");
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -87,7 +109,7 @@ export const Fondo2 = styled.div `
 export const Pie = styled.div`
    width: 100%;
    z-index:999999; 
-   background-color: rgba(0, 0, 0, 0.7);
+   background-color: rgba(0, 0, 0, 0.5);
     background: rgba(0, 0, 0, 0.7);
     -moz-box-shadow:10px 10px 5px #000000;
     -webkit-box-shadow:10px 10px 5px #000000;
@@ -96,7 +118,7 @@ export const Pie = styled.div`
 	bottom: 0;
 `
 export const Foto = styled.img `
-    width: 110px;
+    width: 90px;
     height: auto;
     overflow: hidden;
    

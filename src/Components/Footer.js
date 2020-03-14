@@ -30,7 +30,7 @@ const FooterPage = () => {
                             <a href="http://www.utags.edu.mx/">Universidad Tecnologica de Aguascalientes</a><br/><br/>
                         </li>
                         <li className="list-unstyled">
-                          <Foto2 src="https://lh3.googleusercontent.com/proxy/BsjxfM9b6bCDE4wV5vOqX--RbAl2Ds9n0heQrpT-RncIC-Wa61Wi5pljRi_5jX7mawgH-24l28o7aiDJGQ-sGqGGLsk13wKSXbtf0a-LlHI8vRc" />
+                          <Foto2 src="https://lh3.googleusercontent.com/proxy/scT82tdl4E4uhusLV7LgOXDn1wjdhdvI6zhuaHLwvBPjKiSNXDUP0iC1nNwoLiN3OOTTz1ZWFC3tZVrhwjMF42Wbi6KucEH3Q1n1cs5mV6n90a8" />
                             <a href="http://sito.utags.edu.mx/"> Sito UTAGS</a><br/><br/>
                         </li>
                         <li className="list-unstyled">

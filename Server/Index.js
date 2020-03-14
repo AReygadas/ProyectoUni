@@ -39,8 +39,7 @@ app.use(validator());
 
 
 // Routes
-//app.use(require('./routes/authentication'));
-//app.use('/links', require('./routes/links'));
+
 
 
 // Starting

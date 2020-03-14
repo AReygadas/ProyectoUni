@@ -24,7 +24,7 @@ class FullPageIntroWithFixedTransparentNavbar extends React.Component {
     return (
       <div>
         <header>
-            <MDBNavbar color="bg-primary" fixed='top' dark expand="md" scrolling transparent>
+            <MDBNavbar color='black' fixed='top' dark expand="md" scrolling transparent>
               <MDBNavbarBrand href="/">
                 <img src={Logo} style={{width: '100px', height: '30px' }} alt='NA'/>
               </MDBNavbarBrand>

@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import { Usuario, Contrase, TextoAz } from '../Styles/SingUpStyle'
-import { Contenedor, Fondo, Texto } from '../Styles/styles'
+import { Contenedor, FondoH, Texto } from '../Styles/styles'
 import { MDBRow, MDBCol, MDBBtn } from 'mdbreact'
 
 
@@ -10,7 +10,7 @@ class SingUp extends React.Component{
     render(){
         return(
             <React.Fragment>
-                <Fondo>
+                <FondoH>
                     <MDBRow center> 
                         <MDBCol md="4"> 
                             <Contenedor>
@@ -28,7 +28,7 @@ class SingUp extends React.Component{
                             </Contenedor>
                         </MDBCol>
                     </MDBRow>
-                </Fondo>
+                </FondoH>
             </React.Fragment>
         )
     }
