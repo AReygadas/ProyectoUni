@@ -1,7 +1,5 @@
 const express = require('express');
 const morgan = require('morgan');
-const path = require('path');
-const exphbs = require('express-handlebars');
 const session = require('express-session');
 const validator = require('express-validator');
 const passport = require('passport');
