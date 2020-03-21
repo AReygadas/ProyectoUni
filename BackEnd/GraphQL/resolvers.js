@@ -10,7 +10,7 @@ module.exports = {
     Query: {
         getCursos: async () => {
             const connection = await mysql.createConnection(dataDB)
-            const [row, fields] = await connection.execute('Select * from ...');
+            const [rows, fields] = await connection.execute('Select * from ...');
             return rows
         },
         getCurso: async (root, args)=> {

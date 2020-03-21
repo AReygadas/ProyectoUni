@@ -15,7 +15,7 @@ const UserLog = ({children}) =>{
 }
 
 class App extends Component {
-  render() {
+  render() { 
     return (
       <BrowserRouter>
         <Layout >   
@@ -28,14 +28,20 @@ class App extends Component {
                   <React.Fragment>
                     <Route exact path='/' component={Home} />
                     <Route exact path='/logIn' component={Page404} />
+                    <Route exact path='/SingUp' component={Page404} />
+                    <Route exact path='/EvaSer' component={Ser} />
+                    <Route exact path='/ForEqui' component={Equipo} />
+
                   </React.Fragment>
                   :
                   <React.Fragment>
+                    <Route exact path='/' component={SingIn} />
                     <Route exact path='/logIn' component={SingIn} />
                     <Route exact path='/SingUp' component={Singup} />
-                    <Route exact path='/EvaSer' component={Ser} />
-                    <Route exact path='/ForEqui' component={Equipo} />
-                    <Route exact path='/' component={Page404} />
+                    <Route exact path='/EvaSer' component={Page404} />
+                    <Route exact path='/ForEqui' component={Page404} />
+                   
+                    
                   </React.Fragment>
               }
             </UserLog>

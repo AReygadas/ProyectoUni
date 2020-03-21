@@ -38,7 +38,7 @@ export const Contenedor = styled.div`
 `
 export const FondoH = styled.div `
     padding-top: 9%;
-    padding-bottom: 50px;
+    padding-bottom: 15%;
     position: static;
     width: 100%;
     height: auto;
@@ -92,9 +92,9 @@ export const Fondo1 = styled.div `
 `
 export const Fondo2 = styled.div `
     padding-top: 12%;
-    position:static;
+    position:absolute;
     width: 100%;
-    height: auto;
+    height: 100%;
     background-image: url("https://image.shutterstock.com/image-photo/blue-chalkboard-abstract-background-260nw-1061899094.jpg");
     background-repeat: no-repeat;
     background-position: center center;
@@ -114,7 +114,7 @@ export const Pie = styled.div`
     -moz-box-shadow:10px 10px 5px #000000;
     -webkit-box-shadow:10px 10px 5px #000000;
     box-shadow:10px 10px 5px #000000;
-    position: static;
+    position: fixed;
 	bottom: 0;
 `
 export const Foto = styled.img `
