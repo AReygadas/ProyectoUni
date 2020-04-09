@@ -15,7 +15,8 @@ export const FondoTabla = styled.div`
     background-color: white;
 `
 
-export const Texto = styled.div`
+export const Texto = styled.div `
+    
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     letter-spacing: 2px;
@@ -27,8 +28,38 @@ export const Texto = styled.div`
     font-variant: normal;
     text-transform: none;
 `
-export const Contenedor = styled.div`
+export const ImputTipe = styled.input`
+ ::placeholder{
+    color: white;
+    font-size: 15px;
+    opacity: 0.4;
+  }
+  text-align: bottom;
+  margin:0 0 0 15px;
+  font-family: inherit;
+  width: auto;
+  border: 15px;
+  border-bottom: 2px solid gray;
+  outline: 0;
+  font-size: 1.3rem;
+  color: white;
+  background: transparent;
+  border-color: white;
+
+  &:focus{
     
+    text-align: top;
+    transition: 0.9s;
+    padding-bottom: 0px;  
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to right, #011e5e, #ffffff);
+    border-image-slice: 1;
+  }
+`
+export const Contenedor = styled.div`
+    padding: 50px 20px 50px 20px;
+    margin: 80px 80px 80px 80px;
     border-radius: 15px;
     background-color: rgba(0, 0, 0, 0.5);
     background: rgba(0, 0, 0, 0.5);
@@ -110,12 +141,12 @@ export const Pie = styled.div`
    width: 100%;
    z-index:999999; 
    background-color: rgba(0, 0, 0, 0.5);
-    background: rgba(0, 0, 0, 0.7);
-    -moz-box-shadow:10px 10px 5px #000000;
-    -webkit-box-shadow:10px 10px 5px #000000;
-    box-shadow:10px 10px 5px #000000;
-    position: fixed;
-	bottom: 0;
+   background: rgba(0, 0, 0, 0.7);
+   -moz-box-shadow:10px 10px 5px #000000;
+   -webkit-box-shadow:10px 10px 5px #000000;
+   box-shadow:10px 10px 5px #000000;
+   position: fixed;
+   bottom: 0;
 `
 export const Foto = styled.img `
     width: 90px;
@@ -124,8 +155,8 @@ export const Foto = styled.img `
    
    `
    export const Foto2 = styled.img `
-   width: 30px;
-   height: auto;
-   overflow: hidden;
+    width: 30px;
+    height: auto;
+    overflow: hidden;
   
   `

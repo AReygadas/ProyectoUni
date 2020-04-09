@@ -40,10 +40,9 @@ class App extends Component {
                     <Route exact path='/SingUp' component={Singup} />
                     <Route exact path='/EvaSer' component={Page404} />
                     <Route exact path='/ForEqui' component={Page404} />
-                   
                     
                   </React.Fragment>
-              }
+                 }
             </UserLog>
           </Switch>
         </Layout>

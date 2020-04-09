@@ -11,5 +11,5 @@ const schema = buildSchema(`
 `)
 
 graphql(schema, '{hello}').then((data) =>{
-    console.log(data)
+    console.log(data)  
 })
